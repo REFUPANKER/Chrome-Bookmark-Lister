@@ -19,6 +19,7 @@ if (Directory.Exists(bookmarkPath + "Google\\Chrome\\") == false)
 }
 else
 {
+    // .\Local\Google\Chrome\User Data\Default\Bookmarks
     bookmarkPath += "Google\\Chrome\\User Data\\Default\\";
     cwl("Bookmark Location Might be there >");
     cw(bookmarkPath);
